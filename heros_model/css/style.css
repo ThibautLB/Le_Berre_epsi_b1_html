@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "custom";
+	src: url('../fonts/stone.ttf');
+}
+body {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+
+	background-image: url("../images/bg_zelda.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+.reset {
+	font-family: "stone";
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	bottom: 10px;
+	right: 200px;
+}
+div {
+	font-family: "custom";
+	position: relative;
+	display: block;
+	width: 40%;
+	height: 40%;
+
+	background-color: rgba(255,255,255,0.4);
+	border: solid 1px black;
+
+	margin: 10px auto;
+	padding: 10px;
+
+}
+div header {
+	font-size: 34px;
+	text-align: center;
+	text-transform: uppercase;
+}
+div p{
+	font-size: 24px;
+}
+div a:hover{
+	color: green;
+
+}
+div a:visited{
+	color: black;
+}
+p a:visited, p a:link{
+	color: black;
+}
+p{
+	margin: 2px;
+	padding: 2px;
+}
